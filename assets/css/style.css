@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+header {
+  width: 1280px;
+  height: 60px;
+  padding: 10px 211px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.header-image img {
+  width: 120px;
+  height: 40px;
+  display: block;
+}
+.page-list {
+  display: flex;
+}
+.page-name {
+  font-size: 14px;
+  font-weight: 300;
+}
+.page-name:nth-child(1) {
+  margin: 0 30px 0 0;
+}
+
+
+
+
+main {
+  width: 1280px;
+  display: block;
+}
+.mainvisual {
+  width: 1280px;
+  height: 600px;
+  margin: 0 0 80px;
+}
+.mainvisual img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.about,
+.bicycle {
+  width: 960px;
+  margin: 0 auto 100px;
+  padding: 118px 4% 0;
+  align-items: center;
+  position: relative;
+}
+.section-title {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  width: auto;
+  height: 48px;
+  font-size: 32px;
+  margin: 0 auto 70px;
+  border-bottom: solid 1px #383e45; 
+}
+.wrapper {
+  width: 854px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 0 30px 0 0;
+  display: block;
+}
+.info-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #383E45;
+  display: inline-block;
+  margin: 0 0 10px;
+}
+.info-text {
+  width: 398px;
+  height: 66px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #383E45;
+  overflow: scroll;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+.bicycle-list {
+  display: flex;
+  justify-content: space-between;
+}
+.bicycle-item {
+  width: calc(100% / 3 - 34px);
+}
+
+.bicycle-item img {
+  width: 100%;
+  object-fit: cover;
+  margin: 0 0 10px;
+}
+.item-name {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 10px;
+}
+.item-info {
+  height: 22px;
+  color: #383E45;
+  overflow: scroll;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+footer {
+  width: 1280px;
+  padding: 10px 0;
+}
+.footer-text {
+  display: block;
+  font-size: 8px;
+  font-weight: 300;
+  text-align: center;
+  align-items: center;
+}
